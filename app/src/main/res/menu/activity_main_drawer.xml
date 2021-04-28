@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_premiums_today"
+            android:icon="@drawable/ic_today_24"
+            android:title="اقساط اليوم" />
+        <item
+            android:id="@+id/nav_client"
+            android:icon="@drawable/ic_person_24"
+            android:title="عملاء" />
+        <item
+            android:id="@+id/nav_device"
+            android:icon="@drawable/ic_device_24"
+            android:title="الاجهزه" />
+    </group>
+</menu>

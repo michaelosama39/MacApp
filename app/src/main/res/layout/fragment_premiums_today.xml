@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.premiumsToday.PremiumsTodayFragment"
+    android:background="@color/white"
+    android:id="@+id/premiumsTodayFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ِيوم 5"
+                    android:gravity="center"
+                    android:textSize="22sp"
+                    android:textColor="@color/textColor"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginVertical="8dp"
+                    android:background="#c1c1c1"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/device_5_premiumsToday_RV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:nestedScrollingEnabled="false"/>
+
+                <LinearLayout
+                    android:id="@+id/noData_5_premiumsToday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <include
+                        layout="@layout/no_data_found"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="يوم 10"
+                    android:gravity="center"
+                    android:textSize="22sp"
+                    android:textColor="@color/textColor"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginVertical="8dp"
+                    android:background="#c1c1c1"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/device_10_premiumsToday_RV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:nestedScrollingEnabled="false"/>
+
+                <LinearLayout
+                    android:id="@+id/noData_10_premiumsToday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <include
+                        layout="@layout/no_data_found"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="يوم 15"
+                    android:gravity="center"
+                    android:textSize="22sp"
+                    android:textColor="@color/textColor"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginVertical="8dp"
+                    android:background="#c1c1c1"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/device_15_premiumsToday_RV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:nestedScrollingEnabled="false"/>
+
+                <LinearLayout
+                    android:id="@+id/noData_15_premiumsToday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <include
+                        layout="@layout/no_data_found"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="يوم 20"
+                    android:gravity="center"
+                    android:textSize="22sp"
+                    android:textColor="@color/textColor"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginVertical="8dp"
+                    android:background="#c1c1c1"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/device_20_premiumsToday_RV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:nestedScrollingEnabled="false"/>
+
+                <LinearLayout
+                    android:id="@+id/noData_20_premiumsToday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <include
+                        layout="@layout/no_data_found"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="يوم 25"
+                    android:gravity="center"
+                    android:textSize="22sp"
+                    android:textColor="@color/textColor"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginVertical="8dp"
+                    android:background="#c1c1c1"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/device_25_premiumsToday_RV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:nestedScrollingEnabled="false"/>
+
+                <LinearLayout
+                    android:id="@+id/noData_25_premiumsToday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <include
+                        layout="@layout/no_data_found"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="يوم 30"
+                    android:gravity="center"
+                    android:textSize="22sp"
+                    android:textColor="@color/textColor"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginVertical="8dp"
+                    android:background="#c1c1c1"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/device_30_premiumsToday_RV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:nestedScrollingEnabled="false"/>
+
+                <LinearLayout
+                    android:id="@+id/noData_30_premiumsToday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <include
+                        layout="@layout/no_data_found"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
